@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="621.402" height="54" viewBox="0 0 621.402 54">
+  <g id="Group_11652" data-name="Group 11652" transform="translate(-371.598 -854)">
+    <g id="Group_11639" data-name="Group 11639" transform="translate(2224 226) rotate(90)" opacity="0.37">
+      <line id="Line_11" data-name="Line 11" y2="600" transform="translate(677.5 1240.5)" fill="none" stroke="#aeaeae" stroke-width="1"/>
+      <circle id="Ellipse_165" data-name="Ellipse 165" cx="5" cy="5" r="5" transform="translate(672 1236)" fill="#aaa"/>
+      <circle id="Ellipse_166" data-name="Ellipse 166" cx="5" cy="5" r="5" transform="translate(672 1837)" fill="#aaa"/>
+    </g>
+    <g id="Group_12" data-name="Group 12" transform="translate(371.598 854)" opacity="0.62">
+      <text id="_1" data-name="1" transform="translate(9 32)" fill="#c2c2c2" font-size="30" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-8.628" y="0">1</tspan></text>
+    </g>
+    <g id="Group_13" data-name="Group 13" transform="translate(974.581 854)" opacity="0.62">
+      <text id="_2" data-name="2" transform="translate(9.419 32)" fill="#c2c2c2" font-size="30" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-8.628" y="0">2</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,763 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "clarikaprog";
+  src: url("/fonts/ClarikaProGeoDEMO-Hvy.ttf");
+}
+@font-face {
+  font-family: "monstserrat";
+  src: url("/fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "monstmedium";
+  src: url("/fonts/Montserrat-Medium.ttf");
+}
+@font-face {
+  font-family: "museo";
+  src: url("/fonts/Museo300-Regular.otf");
+}
+@font-face {
+  font-family: "poppinsrg";
+  src: url("/fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "monstbold";
+  src: url("/fonts/Montserrat-Bold.ttf");
+}
+@font-face {
+  font-family: "popregular";
+  src: url("/fonts/Poppins-Regular.ttf");
+}
+.doti {
+  position: absolute;
+  height: 7px !important;
+  top: 44px;
+  left: 160px;
+}
+.planheading {
+  font-family: "monstbold";
+  font-size: 20px;
+}
+.haed {
+  font-family: "monstmedium";
+  font-weight: 600;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+ul li {
+  display: inline-block;
+  padding: 0 10px;
+  font-family: "monstmedium";
+}
+header {
+  width: 100%;
+  height: 70px;
+  background-color: transparent;
+  padding-top: 15px;
+  background-color: #f6f9f9;
+}
+.logoimg img {
+  height: 23px;
+  padding-top: 12px;
+  padding-left: 40px;
+}
+.headerbtn {
+  padding-right: 40px;
+  padding-top: 12px;
+}
+.logoimg {
+  display: flex;
+}
+.signup {
+  border: none;
+  background-color: white;
+  color: #8171ff;
+  padding: 7px 19px;
+  border-radius: 4px;
+  font-family: "poppinsrg";
+}
+.signup:hover {
+  background: #8171ff;
+  color: white;
+  transition: 1s;
+}
+.login {
+  border: none;
+  background-color: #8171ff;
+  color: white;
+  padding: 7px 19px;
+  border-radius: 4px;
+  margin-left: 6px;
+  font-family: "poppinsrg";
+}
+
+.active {
+  font-weight: 600;
+}
+.section1 {
+  display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 86px;
+  justify-content: space-between;
+  background-color: #f6f9f9;
+  padding-bottom: 97px;
+}
+.heading {
+  font-size: 38px;
+  width: 54%;
+  font-family: "monstmedium";
+  font-weight: 600;
+}
+.paradetails {
+  font-size: 23px;
+  width: 52%;
+  padding-top: 13px;
+  padding-bottom: 30px;
+  font-family: monstmedium;
+}
+.mapimg img {
+  height: 300px;
+}
+.details {
+  width: 65%;
+}
+.Manufacturerbtn {
+  width: 160px;
+  height: 44px;
+  background-color: white;
+  border-radius: 4px;
+  border: none;
+  color: #8171ff;
+  font-family: "poppinsrg";
+}
+.Manufacturerbtn:hover {
+  background: #8171ff;
+  color: white;
+  transition: 1s;
+}
+.Entrepreneur {
+  width: 160px;
+  height: 44px;
+  background-color: #8171ff;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  margin-left: 6px;
+  font-family: "poppinsrg";
+}
+
+.ProductEntrepreneur {
+  text-align: center;
+  width: 100%;
+  padding-top: 54px;
+  padding-bottom: 54px;
+  background-color: #f6f9f9;
+}
+.productheading {
+  padding-top: 20px;
+  font-family: "monstmedium";
+}
+
+.sec2 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f6f9f9;
+}
+.productindustry {
+  width: 238px;
+  padding-left: 50px;
+}
+.connectingpeople {
+  width: 238px;
+}
+.sec3 {
+  padding-top: 40px;
+  background-color: #f6f9f9;
+  padding-top: 107px;
+}
+.plan {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.Premiumdiv {
+  width: 273px;
+  border-bottom: none;
+  border-right: none;
+  border-right: 1px solid #d8d3d3;
+  border-left: 1px solid #d8d3d3;
+  border-bottom: 1px solid #d8d3d3;
+  border-top: 6px solid #8171ff;
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.businessdiv {
+  width: 273px;
+}
+
+.planingsection {
+  display: flex;
+  justify-content: center;
+}
+.Premiumheading {
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+.haed {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 10px;
+}
+.stockdiv {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.Premiumimg img {
+  height: 32px;
+}
+.heading2 {
+  font-family: "monstmedium";
+  padding-right: 10px;
+  font-size: 13px;
+}
+.percen {
+  color: #8171ff;
+}
+.Premiumbtn {
+  width: 192px;
+  height: 34px;
+  background-color: #8171ff;
+  border: none;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-family: "poppinsrg";
+  font-weight: 600;
+}
+.Premiumbtn:hover {
+  background: transparent;
+  color: #8171ff;
+  transition: 1s;
+  border: 1px solid #8171ff;
+}
+.planingsection {
+  padding-top: 60px;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #e7ebeb;
+  margin-top: 30px;
+}
+.productheadingdiv {
+  display: flex;
+  padding-bottom: 12px;
+  padding-left: 15px;
+}
+.main3 {
+  padding-top: 30px;
+}
+.paragh {
+  padding-left: 10px;
+  font-family: "monstmedium";
+}
+.errorimg img {
+  padding-left: 10px;
+}
+.businessdiv {
+  width: 273px;
+  border-right: 1px solid #d8d3d3;
+  border-left: 1px solid #d8d3d3;
+  border-bottom: 1px solid #d8d3d3;
+  border-top: 6px solid #4d65ff;
+  padding-top: 20px;
+  text-align: center;
+  margin-left: 55px;
+}
+.paragh3 {
+  padding-right: 20px;
+  font-family: "popregular";
+}
+.lightdiv {
+  font-family: "poppinsrg";
+  font-size: 12px;
+  color: #707070;
+}
+.businessbtn2 {
+  width: 192px;
+  height: 34px;
+  background-color: #4d65ff;
+  border: none;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-family: "poppinsrg";
+  font-weight: 600;
+}
+.businessbtn2:hover {
+  background: transparent;
+  color: #4d65ff;
+  transition: 1s;
+  border: 1px solid #4d65ff;
+}
+.readmore {
+  text-align: left;
+  padding-left: 17px;
+  color: #4d65ff;
+  font-family: "poppinsrg";
+}
+
+.OurProcess {
+  padding-top: 90px;
+  padding-left: 67px;
+  padding-bottom: 33px;
+}
+.purple {
+  color: #8171ff;
+}
+.headingprocess {
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "popregular";
+}
+.Processdiv1 {
+  display: flex;
+  width: 29%;
+  background-color: white;
+  height: 215px;
+  padding-top: 32px;
+}
+.Processdiv2 {
+  width: 45%;
+  background-color: white;
+  height: 215px;
+  padding: 0 30px;
+  padding-top: 40px;
+}
+.doller {
+  font-size: 36px;
+  font-family: "popregular";
+  font-weight: 600;
+}
+.mainprocess {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 46px;
+  padding-bottom: 75px;
+}
+
+.Processpara {
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 23px;
+  padding-right: 31px;
+  line-height: 29px;
+  font-family: "popregular";
+}
+.flexdiv {
+  display: flex;
+}
+.Processimg {
+  padding-left: 30px;
+}
+.Processparadiv2 {
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 30px;
+  /* padding-right: 167px; */
+  width: 70%;
+  line-height: 27px;
+  font-family: "popregular";
+}
+.lightdiv {
+  padding-left: 65px;
+  line-height: 23px;
+  padding-top: 12px;
+}
+
+.Investorsheading {
+  font-size: 38px;
+  font-family: "museo";
+}
+.Investorsdiv {
+  width: 46%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 143px;
+  margin-bottom: 50px;
+}
+.Investorpara {
+  font-size: 12px;
+  line-height: 21px;
+  color: #707070;
+  font-family: "popregular";
+  padding-top: 20px;
+}
+
+.Investorsheading {
+  padding-bottom: 20px;
+}
+.firstchannel {
+  width: 266px;
+  text-align: center;
+}
+.Investorschannels {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 55px;
+  padding-bottom: 100px;
+}
+.thirdchannel {
+  width: 242px;
+  text-align: center;
+}
+.secondchannels {
+  width: 219px;
+  text-align: center;
+}
+.firstchannelimg {
+  padding-bottom: 20px;
+}
+.secondchannelimg {
+  padding-bottom: 20px;
+}
+.thirdchannelimg {
+  padding-bottom: 20px;
+}
+.thirdchanneltext {
+  line-height: 24px;
+  font-family: "popregular";
+  font-weight: 700;
+}
+.secondchanneltext {
+  line-height: 24px;
+  font-family: "popregular";
+  font-weight: 700;
+}
+.firstchanneltext {
+  line-height: 24px;
+  font-family: "popregular";
+  font-weight: 700;
+}
+
+.investorbackground {
+  background-image: url("/images/bluebackgroung.svg");
+  height: 270px;
+  width: 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 78px;
+}
+.investorbackgroundtext {
+  font-size: 36px;
+  color: white;
+  text-align: center;
+  padding: 115px 0;
+  font-family: "popregular";
+  font-weight: 900;
+}
+.flexdivlast {
+  display: flex;
+  text-align: center;
+  border-top: 4px solid #8171ff;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  border-right: 1px solid #707070;
+  border-left: 1px solid #707070;
+  border-bottom: 1px solid #707070;
+  margin-bottom: 60px;
+}
+.firstflexdivlast {
+  width: 40%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.secondflexdivlast {
+  width: 56%;
+  background-color: #f6f9f9;
+}
+.lastimg img {
+  width: 65%;
+}
+.lastpara {
+  font-size: 13px;
+  line-height: 16px;
+  padding-top: 27px;
+  font-family: "popregular";
+}
+.headinglast {
+  font-size: 32px;
+  font-family: "monstmedium";
+  font-weight: 700;
+}
+.lastimg {
+  padding-top: 98px;
+  padding-bottom: 78px;
+}
+.headinglast span {
+  color: #8171ff;
+}
+.para {
+  font-family: "monstmedium";
+  padding-top: 34px;
+}
+.para2 {
+  font-family: "monstmedium";
+  padding-top: 15px;
+}
+@media (max-width: 768.98px) {
+  .listitems {
+    display: none;
+  }
+  .logoimg img {
+    height: 40px;
+    padding-top: 12px;
+    padding-left: 23px;
+  }
+  header {
+    padding-top: 10px;
+  }
+
+  .login {
+    padding-top: 12px;
+    padding-left: 23px;
+    padding: 9px 41px;
+  }
+  .signup {
+    padding-top: 12px;
+    padding-left: 23px;
+    padding: 9px 41px;
+  }
+  .section1 {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .details {
+    width: 100%;
+    text-align: -webkit-center;
+    margin-top: 90px;
+  }
+  .paradetails {
+    padding-top: 27px;
+    padding-bottom: 50px;
+  }
+  .OurProcess {
+    text-align: center;
+    padding-left: 0;
+  }
+  .mainprocess {
+    flex-direction: column;
+  }
+  .Processdiv1 {
+    width: 100%;
+    align-items: center;
+    padding-top: 0;
+  }
+  .Processimg {
+    padding-left: 70px;
+  }
+  .Processpara {
+    padding-left: 56px;
+    padding-right: 60px;
+  }
+  .arrowimg {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .Processdiv2 {
+    width: 100%;
+    background-color: white;
+    height: 215px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .Processdiv2img {
+    padding-left: 70px;
+    padding-top: 0;
+  }
+  .Processparadiv2 {
+    padding-left: 56px;
+  }
+  .lightdiv {
+    padding-left: 0;
+    text-align: center;
+  }
+  .Investorsdiv {
+    width: 100%;
+    margin-top: 78px;
+  }
+  .Investorpara {
+    font-size: 16px;
+    line-height: 25px;
+    width: 100%;
+  }
+  .Investorschannels {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+  .firstchannel {
+    padding-bottom: 30px;
+  }
+  .secondchannels {
+    padding-bottom: 30px;
+  }
+  .thirdchannel {
+    padding-bottom: 30px;
+  }
+  .flexdivlast {
+    width: 70%;
+    flex-direction: column;
+  }
+  .firstflexdivlast {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    flex-direction: column;
+  }
+  .secondflexdivlast {
+    width: 100%;
+  }
+  .lastpara {
+    width: 88%;
+    padding-left: 33px;
+  }
+  .Entrepreneur {
+    margin-left: 47px;
+  }
+}
+@media (max-width: 575.98px) {
+  .img12 {
+    width: 80%;
+  }
+  .logoimg img {
+    height: 24px;
+    padding-top: 6px;
+    padding-left: 17px;
+  }
+  .signup {
+    display: none;
+  }
+  .headerbtn {
+    padding-right: 14px;
+    padding-top: 3px;
+  }
+  .mapimg img {
+    width: 280px;
+  }
+  .section1 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .heading {
+    font-size: 26px;
+    width: 74%;
+    /* padding-left: 20px; */
+    line-height: 36px;
+  }
+  .paradetails {
+    width: 85%;
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  .Entrepreneur {
+    margin-left: 10px;
+    width: 135px;
+  }
+  .Manufacturerbtn {
+    width: 135px;
+  }
+  .sec2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .productindustry {
+    padding-left: 0;
+    padding-bottom: 44px;
+  }
+  .section1 {
+    padding-top: 20px;
+  }
+  .planingsection {
+    flex-direction: column;
+    align-items: center;
+  }
+  .businessdiv {
+    margin-left: 0;
+    height: 482px;
+  }
+  .Premiumdiv {
+    margin-bottom: 70px;
+  }
+  .headingprocess {
+    padding-bottom: 15px;
+    font-size: 28px;
+  }
+  .Processimg {
+    padding-left: 24px;
+  }
+  .Processpara {
+    padding-left: 26px;
+    padding-right: 26px;
+    font-size: 13px;
+    line-height: 24px;
+  }
+  .Processdiv2img {
+    padding-left: 24px;
+  }
+
+  .Processparadiv2 {
+    font-size: 13px;
+    line-height: 22px;
+    padding-left: 26px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+  .details {
+    margin-top: 16px;
+  }
+  .OurProcess {
+    font-size: 25px;
+  }
+  .lightdiv {
+    font-size: 10px;
+  }
+  .Investorsheading {
+    font-size: 26px;
+  }
+  .Investorpara {
+    font-size: 11px;
+    line-height: 19px;
+  }
+  .firstchannel {
+    padding: bottom 75px;
+  }
+  .secondchannels {
+    padding-bottom: 75px;
+  }
+  .thirdchannel {
+    padding-bottom: 75px;
+  }
+  .investorbackgroundtext {
+    padding: 92px 0;
+    font-size: 24px;
+  }
+  .flexdivlast {
+    width: 85%;
+  }
+}
